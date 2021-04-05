@@ -22,3 +22,22 @@ for (let i = 0; i < arrow.length; i++) {
         
     }
 }
+
+
+function resetAccordion() {
+    //Reset semua panels ke display none
+    for (element of panel){
+        element.style.display = "none";
+    }
+    
+    //Semua tombol ke atas bawah
+    for (element of arrow) {
+        element.style.transform = "rotate(0deg)";
+    }
+
+    //Semua kelas jadi aktif tombolnya
+    for (element of item) {
+        element.classList.remove("active");
+    }
+
+}
