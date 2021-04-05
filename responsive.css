@@ -1,0 +1,31 @@
+/* Responsive CSS Mobile Version */
+@media screen and (max-width: 375px) {
+    .main {
+        width: 114px;
+        height: 285px;
+        border-radius: 10px;
+    }
+    /* .accordion {
+
+    } */
+    .faq {
+        font-size: 15px;
+        left: 152px;
+        top: 279px;
+    }
+    .woman {
+        width: 115px;
+        height: 115px;
+        top: -30px;
+        left: -2px;
+    }
+    /* .box {
+        position: absolute;
+        top: 206.13px;
+        left: -93.07px;
+    }
+
+    .pattern {
+        top: -65px;
+    } */
+}
