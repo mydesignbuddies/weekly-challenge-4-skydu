@@ -1,5 +1,5 @@
 /* Responsive CSS Mobile Version */
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     .main {
         width: 114px;
         height: 285px;
